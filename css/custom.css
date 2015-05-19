@@ -1,0 +1,53 @@
+html
+{
+	background: url(../img/bckg.jpg)  no-repeat center center fixed;
+	background-size : cover;
+}
+
+body
+{
+	background: transparent;
+}
+
+.well
+{
+	border : 0px ;
+	background-color: rgba(40,40,40,0.65);
+}
+
+.well p
+{
+	color : white;
+}
+
+.well strong
+{
+	color : white;
+}
+
+p
+{
+	color: white;
+}
+
+h3
+{
+	color:white;
+}
+
+h4
+{
+	color:white;
+}
+
+.portrait-icon
+{
+	max-width: 70px;
+}
+
+input
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
