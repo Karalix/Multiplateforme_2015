@@ -56,14 +56,11 @@
 					<select class="select-ordering form-control pull-right" ng-model="search.order" ng-options="order as order.title for order in search.ordersList"></select>
 						<div class="panel result-panel">
 							<div class="row" ng-repeat="trajet in search.matchingTrajets | orderBy:search.order.key:search.order.reverse">
-								<div class="col-md-3"></div>
-								<div class="col-md-6">
-									<div class="well well-lg">
-										<h4><strong>{{trajet.depart}} -> {{trajet.destination}}</strong></h4>
-										<div>
-											<p>Date : {{trajet.date.toLocaleDateString()}}</p>
-											<p>Chauffeur : {{trajet.chauffeur}}</p>
-										</div>
+								<div class="well well-lg">
+									<h4><strong>{{trajet.depart}} -> {{trajet.destination}}</strong></h4>
+									<div>
+										<p>Date : {{trajet.date.toLocaleDateString()}}</p>
+										<p>Chauffeur : {{trajet.chauffeur}}</p>
 									</div>
 								</div>
 								<div class="col-md-3"></div>	
